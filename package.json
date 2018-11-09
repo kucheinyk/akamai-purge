@@ -1,0 +1,23 @@
+{
+  "name": "akamai-purge",
+  "version": "1.0.0",
+  "description": "Helps to purge Akamai cache",
+  "main": "akamai-purge.js",
+  "scripts": {
+    "test": "node akamai-purge user:myakamaiuser pass:myakamaipassword read:/path/to/folder prefix:https://dummy.akamai.url"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kucheinyk/akamai-purge.git"
+  },
+  "keywords": [
+    "akamai",
+    "purge"
+  ],
+  "author": "Igor Kucheinyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kucheinyk/akamai-purge/issues"
+  },
+  "homepage": "https://github.com/kucheinyk/akamai-purge#readme"
+}
