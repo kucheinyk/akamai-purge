@@ -12,3 +12,8 @@ Helps to purge Akamai cache. Based on local file structure generates list of url
 node akamai-purge user:myakamaiuser pass:myakamaipassword read:/path/to/folder prefix:https://dummy.akamai.url
 ```
 In this case the script will recursively go through directory /path/to/folder, collect relative file paths, prefix every path with https://dummy.akamai.url and send resulting urls to akamai
+
+# Installation
+```
+npm install akamai-purge-cache --global
+```
