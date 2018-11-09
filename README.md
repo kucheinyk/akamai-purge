@@ -1,4 +1,4 @@
-# akamai-purge
+# akamai-purge-cache
 Helps to purge Akamai cache. Based on local file structure generates list of urls that are sent to akamai to purge. It is assumed local folder structure is the same as in akamai
 
 # Attributes

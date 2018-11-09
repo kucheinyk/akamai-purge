@@ -1,5 +1,5 @@
 {
-  "name": "akamai-purge",
+  "name": "akamai-purge-cache",
   "version": "1.0.0",
   "description": "Helps to purge Akamai cache",
   "main": "akamai-purge.js",
