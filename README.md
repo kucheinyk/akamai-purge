@@ -8,5 +8,7 @@ Helps to purge Akamai cache. Based on local file structure generates list of url
 * prefix - url prefix
 
 # Example of usage
+```
 node akamai-purge user:myakamaiuser pass:myakamaipassword read:/path/to/folder prefix:https://dummy.akamai.url
-in this case the script will recursively go through directory /path/to/folder, collect all files, prefix every file with https://dummy.akamai.url and send to akamai
+```
+In this case the script will recursively go through directory /path/to/folder, collect relative file paths, prefix every path with https://dummy.akamai.url and send resulting urls to akamai
